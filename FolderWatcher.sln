@@ -5,6 +5,13 @@ VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolderWatcher", "FolderWatcher.csproj", "{CC50A133-FB11-4513-B0AE-C789BD257E72}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B4BD3250-C858-482C-89FF-B35DD7CF7BCA}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet-desktop.yml = .github\workflows\dotnet-desktop.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolderWatcher.Test", "..\FolderWatcher.Test\FolderWatcher.Test.csproj", "{DF51B9D5-63AB-4952-AC66-CAF744AFB427}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{CC50A133-FB11-4513-B0AE-C789BD257E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC50A133-FB11-4513-B0AE-C789BD257E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC50A133-FB11-4513-B0AE-C789BD257E72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF51B9D5-63AB-4952-AC66-CAF744AFB427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF51B9D5-63AB-4952-AC66-CAF744AFB427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF51B9D5-63AB-4952-AC66-CAF744AFB427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF51B9D5-63AB-4952-AC66-CAF744AFB427}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
